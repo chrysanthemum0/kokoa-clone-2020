@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KoKoa Clone</title>
+</head>
+<body>
+    <div class="status-bar"> <!-- 상단바-->
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    
+    <header class="welcome-header"> <!--헤더-->
+        <h1 class="welcome-header__title">Welcome to kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a KoKoa Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form"> <!--로그인 버튼-->
+        <input name="username" type="text" placeholder="Email or Phone number" />
+        <input name="Password" type="Password" placeholder="Password" />
+        <input type="submit" value="Log in" /> <!--button-->
+        <a href="#">Find KoKoa Account or Password</a>
+    </form>
+   
+    <div id="no-mobile">
+        <span>Your screen is too big.</span>
+    </div>
+    
+    <script 
+    src="https://kit.fontawesome.com/4a487535a0.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>
